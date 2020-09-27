@@ -24,8 +24,7 @@ img{
     grid-column-start: 1;
     grid-column-end: 5;
     border: 3px groove gray;
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
-    background: linear-gradient(to right, #1CB5E0, #000046); 
+    background-image: url("../imagenes/Visions-of-Grandeur.jpg"); 
 }
 .item2{
     grid-row-start: 2;
@@ -36,8 +35,7 @@ img{
     grid-column-start: 2;
     grid-column-end: 4;
     border: 3px groove gray;
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
-    background: linear-gradient(to right, #1CB5E0, #000046); 
+    background-image: url("../imagenes/Visions-of-Grandeur.jpg");
 }
 h2{
     margin-top: 5px;
@@ -46,8 +44,7 @@ h2{
     grid-column-start: 1;
     grid-column-end: 5;
     border: 3px groove gray;
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
-    background: linear-gradient(to right, #1CB5E0, #000046); 
+    background-image: url("../imagenes/Visions-of-Grandeur.jpg");
     margin-top: 30px;
     height: 10vh;
 }
@@ -59,23 +56,7 @@ h2{
     grid-column-end: 4;
     grid-row-start: 5;
     border: 3px groove gray;
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
-    background: linear-gradient(to right, #1CB5E0, #000046); 
+    background-image: url("../imagenes/Visions-of-Grandeur.jpg");
     margin: 15px;
     padding: 0 25px 0 25px;
 }
-/*@media screen and (max-width:600px){
-    .grid-item{
-        width: 33.3%;
-    }
-}    
-@media screen and (min-width:600px){
-    .grid-item{
-        width: 33.3%;
-    }
-}    
-@media screen and (min-width: 992px){
-    .grid-item{
-        width: 33.3%;
-    }
-}*/
