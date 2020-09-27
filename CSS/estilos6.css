@@ -1,0 +1,44 @@
+.sucursales{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+.titulo{
+    text-align: center;
+    font: italic 1.8em 'Oswald', sans-serif;
+    color: lightblue;
+}
+.vinculo{
+    text-align: center;
+    font: italic 1.3em 'Oswald', sans-serif;
+    color: lightblue;
+    text-decoration: none;
+}
+.column50{
+    width: 100%;
+    height: 50vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media screen and (max-width:600px){
+    .column50{
+        width: 50%;
+    }
+}    
+@media screen and (min-width:600px){
+    .column50{
+        width: 50%;
+    }
+}    
+@media screen and (min-width: 992px){
+    .column50{
+        width: 50%;
+    }
+}
