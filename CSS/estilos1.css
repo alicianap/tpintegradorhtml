@@ -26,7 +26,7 @@ header{
     transition: width 5s;
 }
 .empresa:hover {
-    width: 50vw;
+    width: 25vw;
   }
 .contheader{
     display: flex;
